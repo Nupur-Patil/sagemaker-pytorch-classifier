@@ -1,0 +1,12 @@
+# Virtual Environment
+/venv
+
+# Data and Model Artifacts (These belong in S3, NOT GitHub)
+/data
+*.pth  # PyTorch model files
+*.pt
+/model # SageMaker output directory
+
+# Jupyter and IDE files
+.ipynb_checkpoints
+.DS_Store
